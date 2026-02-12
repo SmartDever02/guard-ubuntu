@@ -88,15 +88,10 @@ EOF
 }
 
 enable_ufw_final() {
-
-  log "Enabling UFW firewall"
-
+  log "Enabling UFW (non-interactive)"
   ufw --force enable
-
-  systemctl enable ufw
-  systemctl restart ufw
-
-  ufw status verbose
+  systemctl enable ufw || true
+  ufw status verbose || true
 }
 
 configure_sshd_force_only_2222() {
