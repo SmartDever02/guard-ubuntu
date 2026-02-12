@@ -40,13 +40,6 @@ python3 --version
 
 
 echo "========================================"
-echo "Upgrading pip..."
-echo "========================================"
-
-python3 -m pip install --upgrade pip setuptools wheel
-
-
-echo "========================================"
 echo "Installing NVM..."
 echo "========================================"
 
