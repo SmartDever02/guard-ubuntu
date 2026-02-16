@@ -1,0 +1,9 @@
+sudo ufw deny from 109.107.181.123
+sudo ufw deny from 138.124.53.238
+sudo ufw deny from 5.231.28.16
+sudo ufw deny from 5.231.28.204
+sudo ufw deny from 5.83.147.194
+sudo ufw deny from 85.93.9.234
+sudo ufw deny from 85.93.9.236
+sudo ufw deny from 89.144.8.81
+sudo ufw deny from 89.144.8.91
